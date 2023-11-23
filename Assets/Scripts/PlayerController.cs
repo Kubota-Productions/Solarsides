@@ -79,6 +79,12 @@ public class PlayerController : MonoBehaviour
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0, lookXLimit = 0;
+    
+    [Header("Jetpack")]
+    public float maxDuration = 1f;
+    private float duration;
+    private bool canJetpack = false;
+    
 
     #endregion
 
@@ -88,6 +94,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        duration = maxDuration;
         characterController = GetComponent<CharacterController>();
 
         lookXLimit = lookStandLimit;
@@ -123,6 +130,11 @@ public class PlayerController : MonoBehaviour
     #endregion
 
     #region CustomMethods
+
+    void DoubleTap() {
+
+    }
+
 
     #region Movement
 
@@ -166,22 +178,35 @@ public class PlayerController : MonoBehaviour
 
         else if (useFX) speedLines.SetActive(false);
 
-
         // Edited by Limphus, seperated the check for isGrounded from the input check
         // Now the y velocity is reset to 0 when on the ground
         // Before, if you didnt jump and you fell from a ledge, the velocity wasnt reset
         // So the y velocity would build up over continuous falls without jumping
         if (characterController.isGrounded)
         {
+            canJetpack = false;
+            duration = maxDuration;
+
             if (Input.GetButton("Jump") && canMove)
             {
                 moveDirection.y = jumpAmount;
             }
         }
-
-        else
+        else if (!characterController.isGrounded)
         {
+            if (!Input.GetButton("Jump") && canJetpack == false && duration != 0) {
+                canJetpack = true;
+            }
             moveDirection.y = movementDirectionY;
+        }
+
+        if (Input.GetButton("Jump") && canJetpack == true)
+        {
+            moveDirection.y = jumpAmount;
+            duration = Mathf.Max(duration - Time.deltaTime, 0);
+
+            if (duration == 0)
+                canJetpack = false;
         }
 
         // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
