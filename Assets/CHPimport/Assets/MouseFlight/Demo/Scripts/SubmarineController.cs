@@ -19,12 +19,16 @@ public class SubmarineController : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private MouseFlightController controller = null;
-
+    
     [Header("Physics")]
     [Tooltip("Force to push submarine forwards with")] public float thrust = 100f;
+    [Tooltip("need for speed maximum thust")] public float maxthrust = 69f;
+    [Tooltip("The amount the ship gets slowed down by when out of fuel")] public float noFuelThrust = 5f;
+    
+
     [Tooltip("Force to push Submarine vertically with")] public float verticalThrust = 100f;
     [Tooltip("Force to push Submarine horizontally with")] public float horizontalThrust = 100f;
-    [Tooltip("need for speed maximum thust")] public float maxthrust = 69f;
+    
     [Tooltip("Pitch, Yaw, Roll")] public Vector3 turnTorque = new Vector3(90f, 25f, 45f);
     [Tooltip("Multiplier for all forces")] public float forceMult = 1000f;
 
@@ -46,6 +50,10 @@ public class SubmarineController : MonoBehaviour
     private bool rollOverride = false;
     private bool pitchOverride = false;
 
+    private bool isOutOfFuel = false;
+    private float _thrust = 100f;
+    private float _maxthrust = 69f;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -59,6 +67,9 @@ public class SubmarineController : MonoBehaviour
         //Lock Cursor
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = false;
+
+        _thrust = thrust;
+        _maxthrust = maxthrust;
     }
 
     private float verticalMovement;
@@ -72,8 +83,9 @@ public class SubmarineController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space)) ToggleThrust();
         if (engineToggle) ChangeSpeed(0);
-        else if (Input.GetKey(KeyCode.LeftShift)) ChangeSpeed(maxthrust);
-        else ChangeSpeed(thrust);
+        else if (Input.GetKey(KeyCode.LeftShift) && isOutOfFuel == false) ChangeSpeed(_maxthrust);
+        else ChangeSpeed(_thrust);
+
         // When the player commands their own stick input, it should override what the
         // autopilot is trying to do.
         rollOverride = false;
@@ -108,7 +120,18 @@ public class SubmarineController : MonoBehaviour
 
     public float GetCurrentThrust => currentThrust;
 
-
+    public void outOfFuel(bool isOut)
+    {
+        isOutOfFuel = isOut;
+        if(isOut)
+        {
+            _thrust = noFuelThrust;
+        }
+        else
+        {
+            _thrust = thrust;
+        }
+    }
 
     void ChangeSpeed(float speed)
     {

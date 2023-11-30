@@ -13,7 +13,7 @@ public class SubmarineFuel : MonoBehaviour
 
     [SerializeField] private SliderUI slider;
 
-    [SerializeField] private UnityEvent NoFuelEvent;
+    [SerializeField] private UnityEvent<bool> NoFuelEvent;
 
     private float currentFuel;
     public bool HasFuel { get; private set; }
@@ -55,12 +55,18 @@ public class SubmarineFuel : MonoBehaviour
     private void UseFuel()
     {
         currentFuel -= fuelConsumption * Time.fixedDeltaTime;
+        currentFuel = Mathf.Max(currentFuel, 0f);
 
-        if (currentFuel <= 0) NoFuel();
+        if(currentFuel <= 0f)
+        {
+            HasFuel = false;
+            NoFuelEvent?.Invoke(true);
+        }
+        else if(currentFuel >= 0f)
+        {
+            HasFuel = true;
+            NoFuelEvent?.Invoke(false);
+        }
     }
 
-    private void NoFuel()
-    {
-        HasFuel = false; NoFuelEvent?.Invoke();
-    }
 }
