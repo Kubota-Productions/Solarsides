@@ -93,7 +93,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7432927732840979164, guid: 6f78fad5dbe772442b2d5294f305f7c5, type: 3}
 --- !u!1 &1285261274213767966
@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 4658641658383677712}
   - component: {fileID: 7094610161621132803}
   - component: {fileID: 7915374777752286553}
+  - component: {fileID: 7710736835551065854}
   m_Layer: 0
   m_Name: Cylinder_hp_RScatter.002
   m_TagString: Untagged
@@ -210,6 +211,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7710736835551065854
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5036356426179231378}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9211419584973007712, guid: 6f78fad5dbe772442b2d5294f305f7c5, type: 3}
 --- !u!1 &8757230192381853428
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4569900435270649852}
   - component: {fileID: 631726254742751321}
   - component: {fileID: 3395891034833173651}
+  - component: {fileID: 3309907876798199086}
   m_Layer: 0
   m_Name: RingModelFinal1
   m_TagString: Untagged
@@ -81,3 +82,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3309907876798199086
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3756103894405848390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6047369912972464335, guid: a470c31d9f473bc498c7893af22a9473, type: 3}
