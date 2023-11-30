@@ -9,7 +9,7 @@ public class SliderUI : MonoBehaviour
 
     private void Awake()
     {
-        if (!slider) slider = GetComponent<Slider>();
+        slider = gameObject.GetComponent<Slider>();
     }
 
     public void SetMaxValue(float amount) => slider.maxValue = amount;

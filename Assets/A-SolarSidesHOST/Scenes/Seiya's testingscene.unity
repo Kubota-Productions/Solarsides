@@ -27282,17 +27282,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e274c4df3c322a04cb99684c4bb2e77e, type: 3}
---- !u!114 &1579931920 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5031342563746199950, guid: 8d60ad28220ded6409908874446e5fc1, type: 3}
-  m_PrefabInstance: {fileID: 5031342564470545294}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e59c5387dadf66844ae1eed2cbe1e654, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1602329989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28909,14 +28898,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 645877401463666762, guid: 8d60ad28220ded6409908874446e5fc1, type: 3}
-      propertyPath: m_Value
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 645877401463666762, guid: 8d60ad28220ded6409908874446e5fc1, type: 3}
-      propertyPath: m_MaxValue
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3078243913693301008, guid: 8d60ad28220ded6409908874446e5fc1, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -28968,22 +28949,6 @@ PrefabInstance:
     - target: {fileID: 5031342563746200177, guid: 8d60ad28220ded6409908874446e5fc1, type: 3}
       propertyPath: fuelConsumption
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031342563746200177, guid: 8d60ad28220ded6409908874446e5fc1, type: 3}
-      propertyPath: NoFuelEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031342563746200177, guid: 8d60ad28220ded6409908874446e5fc1, type: 3}
-      propertyPath: NoFuelEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1579931920}
-    - target: {fileID: 5031342563746200177, guid: 8d60ad28220ded6409908874446e5fc1, type: 3}
-      propertyPath: NoFuelEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: outOfFuel
-      objectReference: {fileID: 0}
-    - target: {fileID: 5031342563746200177, guid: 8d60ad28220ded6409908874446e5fc1, type: 3}
-      propertyPath: NoFuelEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SubmarineController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5650042872539136734, guid: 8d60ad28220ded6409908874446e5fc1, type: 3}
       propertyPath: m_Name

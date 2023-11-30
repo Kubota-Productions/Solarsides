@@ -20,8 +20,12 @@ public class SubmarineFuel : MonoBehaviour
 
     private void Awake()
     {
-        HasFuel = true; currentFuel = maxFuel;
+        HasFuel = true; 
+        currentFuel = maxFuel;
+    }
 
+    private void Start()
+    {
         if (slider) slider.SetMaxValue(maxFuel);
     }
 

@@ -143,9 +143,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 5031342564682002704}
   thrust: 20
+  maxthrust: 39
+  noFuelThrust: 5
   verticalThrust: 10
   horizontalThrust: 10
-  maxthrust: 39
   turnTorque: {x: 200, y: 200, z: 40}
   forceMult: 100
   sensitivity: 5
@@ -174,10 +175,10 @@ MonoBehaviour:
   NoFuelEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: LoadIntoHangar
-        m_Mode: 1
+      - m_Target: {fileID: 5031342563746199950}
+        m_TargetAssemblyTypeName: SubmarineController, Assembly-CSharp
+        m_MethodName: outOfFuel
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5972,10 +5973,6 @@ PrefabInstance:
     - target: {fileID: 3951831610564182575, guid: 16580bf03b0b2cd43a91d480153f3fa0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5558696983668666583, guid: 16580bf03b0b2cd43a91d480153f3fa0, type: 3}
-      propertyPath: m_Value
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6596189337153227372, guid: 16580bf03b0b2cd43a91d480153f3fa0, type: 3}
       propertyPath: m_SizeDelta.x
