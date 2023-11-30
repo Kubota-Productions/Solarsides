@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 5031342563746199950}
   - component: {fileID: 5031342563746200177}
   m_Layer: 0
-  m_Name: Submarine
+  m_Name: Skyship
   m_TagString: Submarine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
