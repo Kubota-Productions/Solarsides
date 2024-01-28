@@ -102,12 +102,12 @@ public class GameManager : MonoBehaviour
 
     public static void LoadIntoHangar()
     {
-        SceneManager.LoadSceneAsync(1);
+        //SceneManager.LoadSceneAsync(1);
     }
 
     public static void LoadIntoGame()
     {
-        SceneManager.LoadSceneAsync(2);
+        //SceneManager.LoadSceneAsync(2);
     }
 
     bool inSubmarine = true;

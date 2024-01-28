@@ -18,6 +18,8 @@ namespace com.limphus.utilities
 
         public void LoadLevelBtn(string levelToLoad)
         {
+            Debug.Log("Loading Scene");
+
             menu.SetActive(false);
             loadingScreen.SetActive(true);
 
@@ -26,6 +28,8 @@ namespace com.limphus.utilities
 
         public void LoadLevelBtn(int levelToLoad)
         {
+            Debug.Log("Loading Scene");
+
             menu.SetActive(false);
             loadingScreen.SetActive(true);
 
