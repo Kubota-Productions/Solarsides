@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3384549712366039264
+--- !u!1 &7082983454727976700
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3384549712366039277}
-  - component: {fileID: 3384549712366039266}
-  - component: {fileID: 3384549712366039267}
-  - component: {fileID: 3384549712366039276}
+  - component: {fileID: 8538890010395244420}
   m_Layer: 0
   m_Name: Gravestone_01
   m_TagString: Untagged
@@ -19,35 +16,69 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3384549712366039277
+--- !u!4 &8538890010395244420
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3384549712366039264}
-  m_LocalRotation: {x: -0.43615097, y: 0.56344974, z: 0.51006234, w: 0.48180205}
-  m_LocalPosition: {x: 104.98352, y: 2.4732175, z: 115.573395}
-  m_LocalScale: {x: 45.742832, y: 99.99998, z: 165.12012}
-  m_Children: []
+  m_GameObject: {fileID: 7082983454727976700}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -0.000000089407, z: 0.000000011591}
+  m_LocalScale: {x: 0.46, y: 0.5808967, z: 0.46}
+  m_Children:
+  - {fileID: 902452757541502164}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -95.694, y: -81.06702, z: 180}
---- !u!33 &3384549712366039266
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &7510606264123166649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902452757541502164}
+  - component: {fileID: 6312524321980237153}
+  - component: {fileID: 5358920430048707518}
+  - component: {fileID: 504919590943458941}
+  m_Layer: 0
+  m_Name: Gravestone_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &902452757541502164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7510606264123166649}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 45, y: 90, z: 165}
+  m_Children: []
+  m_Father: {fileID: 8538890010395244420}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6312524321980237153
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3384549712366039264}
+  m_GameObject: {fileID: 7510606264123166649}
   m_Mesh: {fileID: -9108240321511467151, guid: e61bceb0efe263a4685f705dbe9484a8, type: 3}
---- !u!23 &3384549712366039267
+--- !u!23 &5358920430048707518
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3384549712366039264}
+  m_GameObject: {fileID: 7510606264123166649}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -82,13 +113,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3384549712366039276
+--- !u!64 &504919590943458941
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3384549712366039264}
+  m_GameObject: {fileID: 7510606264123166649}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
