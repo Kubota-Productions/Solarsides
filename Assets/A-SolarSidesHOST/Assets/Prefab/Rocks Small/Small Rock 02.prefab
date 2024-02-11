@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7690822512547390228}
   - component: {fileID: 5724318268589166391}
   - component: {fileID: 4958579906030850026}
-  - component: {fileID: 7533289825227871743}
+  - component: {fileID: 2329325542191566165}
   m_Layer: 0
   m_Name: rocklow.002
   m_TagString: Untagged
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7533289825227871743
+--- !u!64 &2329325542191566165
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

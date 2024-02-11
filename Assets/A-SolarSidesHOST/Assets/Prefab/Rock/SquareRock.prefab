@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8765681569743064963}
   - component: {fileID: 5623359194300563494}
   - component: {fileID: 7633276107812680940}
-  - component: {fileID: 8057986237994680470}
+  - component: {fileID: 3336650661134844909}
   m_Layer: 0
   m_Name: SquareRock
   m_TagString: Untagged
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8057986237994680470
+--- !u!64 &3336650661134844909
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
