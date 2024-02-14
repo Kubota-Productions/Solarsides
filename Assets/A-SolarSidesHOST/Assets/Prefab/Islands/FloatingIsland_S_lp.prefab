@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7116690337685539034}
   - component: {fileID: 6155378066974345087}
   - component: {fileID: 8253054076236624821}
+  - component: {fileID: 9032253615564797147}
   m_Layer: 0
   m_Name: FloatingIsland_S_lp
   m_TagString: Untagged
@@ -81,3 +82,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9032253615564797147
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7604398909053719136}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3058907647348867309, guid: ba42934719801004080f773676101232, type: 3}
