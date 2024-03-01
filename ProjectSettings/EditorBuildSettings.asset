@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/OLD-GameModels/Scenes/underwatergm.unity
     guid: 91b90694c1741d844b3d55e8a9ef9ce7
   - enabled: 0
-    path: Assets/A-SolarSidesHOST/Scenes/Seiya's testingscene.unity
+    path: Assets/A-SolarSidesHOST/Scenes/Assets Test.unity
     guid: 9ac2adee6e9b08440aeaf64815f3d9d1
   - enabled: 0
     path: Assets/A-SolarSidesHOST/Scenes/Bilal whiteboxing scene.unity
