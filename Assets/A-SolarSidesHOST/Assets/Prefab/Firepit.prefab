@@ -524,6 +524,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: vfx_fire
       objectReference: {fileID: 0}
+    - target: {fileID: 6252981193058537619, guid: c6bdd8ff31473af44bc70fb3e12cb659, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.x
+      value: 33.62427
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252981193058537619, guid: c6bdd8ff31473af44bc70fb3e12cb659, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.y
+      value: 3.4184737
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252981193058537619, guid: c6bdd8ff31473af44bc70fb3e12cb659, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.z
+      value: 1.7604325
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6bdd8ff31473af44bc70fb3e12cb659, type: 3}
 --- !u!4 &7718737425117578054 stripped
