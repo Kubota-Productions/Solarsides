@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 501230815107434940}
+  - component: {fileID: 8052171172416849637}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Untagged
@@ -34,6 +35,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &8052171172416849637
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990627445843759878}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.098229185, z: 0.000003799796}
+  m_Size: 0.40131712
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.053382978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8715342115936008054}
+    - renderer: {fileID: 8430158821875950374}
+    - renderer: {fileID: 3128215781791532541}
+    - renderer: {fileID: 2378202893412843554}
+  m_Enabled: 1
 --- !u!1 &2288605800725687154
 GameObject:
   m_ObjectHideFlags: 0
