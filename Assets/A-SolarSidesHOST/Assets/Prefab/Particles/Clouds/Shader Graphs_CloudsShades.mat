@@ -38,8 +38,17 @@ Material:
     - Vector1_9b54a1fa95d94f398f4186bfaccbbdb5: 60
     - Vector1_b6d4286e1ea045639b31d078d40818f1: 0.55
     - Vector1_eb3a1414f17c410caa27f028c4352de2: 120
+    - _AlphaClip: 0
+    - _CloudAlpha: 1
+    - _CloudPower: 1
+    - _Cloudscale: 120
+    - _DistortScale: 60
+    - _VortexOffset: 0
     m_Colors:
     - Color_e5bb75f09440481b80a18f83fc0743ed: {r: 1.2078432, g: 1.9137255, b: 2.9960785, a: 1}
     - Vector2_196e6d6fbd6e4d64904555d325b5f455: {r: 0.001, g: 0.005, b: 0, a: 0}
     - Vector2_f41dd66f27e443c585633328c5c784b4: {r: 0.002, g: 0.005, b: 0, a: 0}
+    - _CloudColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CloudSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _DistortSpeed: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
