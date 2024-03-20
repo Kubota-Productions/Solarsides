@@ -254,6 +254,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 2100000, guid: 3520ac394a774884684346d8a878ba65, type: 2}
   - {fileID: 2100000, guid: 50daa1b0b6285ba4ea82e1a6bf6983a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -275,7 +276,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Time: 20
+  m_Time: 2
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
