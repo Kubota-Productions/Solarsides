@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5224408779670985045}
   - component: {fileID: 1366736887280605774}
   - component: {fileID: 6500156867517217429}
+  - component: {fileID: 318014223660570156}
   m_Layer: 0
   m_Name: FloatingIsland_L_lp
   m_TagString: Untagged
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 879cfcb57416f9341a19e1bb23868fb7, type: 2}
+  - {fileID: 2100000, guid: a11f222792f660645852cb170a5b2c8e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &318014223660570156
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077970651209812008}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9015925167669584722, guid: f9c9da89c62d05b49b3bcf266240f360, type: 3}
 --- !u!1 &2874745913613729332
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +107,7 @@ GameObject:
   - component: {fileID: 5594931038286474315}
   - component: {fileID: 8105867728605296698}
   - component: {fileID: 6068944385516491823}
+  - component: {fileID: 4642307244609687574}
   m_Layer: 0
   m_Name: polySurface2
   m_TagString: Untagged
@@ -140,7 +156,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 879cfcb57416f9341a19e1bb23868fb7, type: 2}
+  - {fileID: 2100000, guid: a11f222792f660645852cb170a5b2c8e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -162,6 +178,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4642307244609687574
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2874745913613729332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5597002278806442958, guid: f9c9da89c62d05b49b3bcf266240f360, type: 3}
 --- !u!1 &7965955407404559909
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,6 +201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8900738640089133334}
+  - component: {fileID: 3434919214758256417}
   m_Layer: 0
   m_Name: island_L_Crystal
   m_TagString: Untagged
@@ -194,3 +225,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &3434919214758256417
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7965955407404559909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
