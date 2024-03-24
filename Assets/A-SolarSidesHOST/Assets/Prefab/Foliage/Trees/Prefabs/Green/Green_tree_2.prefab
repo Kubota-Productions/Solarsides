@@ -28,7 +28,6 @@ Transform:
   m_LocalRotation: {x: -0.000000081460335, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3409310983972238377}
   m_RootOrder: 0
@@ -169,8 +168,7 @@ VisualEffect:
         m_Overridden: 1
     m_NamedObject:
       m_Array:
-      - m_Value: {fileID: 3716288790400880915, guid: c680af6be0a71554e9d7caf8d9fc50b0,
-          type: 3}
+      - m_Value: {fileID: 3716288790400880915, guid: c680af6be0a71554e9d7caf8d9fc50b0, type: 3}
         m_Name: Mesh
         m_Overridden: 1
       - m_Value: {fileID: 2800000, guid: 124f5622215ecfc4abab29a0ba610bfa, type: 3}
@@ -193,7 +191,6 @@ VFXRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -232,6 +229,7 @@ GameObject:
   - component: {fileID: 3409310983972238377}
   - component: {fileID: 3409310983972238359}
   - component: {fileID: 3409310983972238376}
+  - component: {fileID: 7840234085134313420}
   m_Layer: 0
   m_Name: Green_tree_2
   m_TagString: Untagged
@@ -249,7 +247,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3409310983090814603}
   m_Father: {fileID: 0}
@@ -274,7 +271,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -305,3 +301,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7840234085134313420
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3409310983972238378}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2163022072983001361, guid: c680af6be0a71554e9d7caf8d9fc50b0, type: 3}
