@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/A-SolarSidesHOST/Scenes/Mainmenu.unity
     guid: 315bf3124a3b0b941b19815179ae76ce
   - enabled: 0
