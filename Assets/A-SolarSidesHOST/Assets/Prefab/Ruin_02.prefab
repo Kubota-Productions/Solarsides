@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5055067814934752335}
   - component: {fileID: 5381355605145338949}
   - component: {fileID: 2920047426465787387}
+  - component: {fileID: 8220987810695100548}
   m_Layer: 0
   m_Name: polySurface2
   m_TagString: Untagged
@@ -81,6 +82,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &8220987810695100548
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684164540805620250}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.0002913773, y: 0.00030023046, z: -0.021685753}
+  m_Size: 0.08524868
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2920047426465787387}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2920047426465787387}
+  - screenRelativeHeight: 0.0053537074
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2920047426465787387}
+  m_Enabled: 1
 --- !u!1 &1868636900247291447
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,6 +168,7 @@ GameObject:
   - component: {fileID: 3135478638705683623}
   - component: {fileID: 3326298281710299629}
   - component: {fileID: 7498935480036336686}
+  - component: {fileID: 3057541112816368487}
   m_Layer: 0
   m_Name: polySurface1
   m_TagString: Untagged
@@ -225,3 +254,30 @@ MonoBehaviour:
   degreesPerSecond: 15
   amplitude: 0.5
   frequency: 0.2
+--- !u!205 &3057541112816368487
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9124613590906694994}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.000000016763806, y: 0.00030022115, z: -0.0018390566}
+  m_Size: 0.039907344
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3326298281710299629}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3326298281710299629}
+  - screenRelativeHeight: 0.0061471905
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3326298281710299629}
+  m_Enabled: 1

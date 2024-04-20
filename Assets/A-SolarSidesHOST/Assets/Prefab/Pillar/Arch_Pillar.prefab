@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3601571478595709089}
   - component: {fileID: 1594183439948504171}
   - component: {fileID: 134607459882443242}
+  - component: {fileID: 3895603676834989138}
   m_Layer: 0
   m_Name: Arch_Pillar
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7438764489180999732, guid: 83bb1868632f2b24c83b38382d315c86, type: 3}
+--- !u!205 &3895603676834989138
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945563594628496830}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -3.0562882, y: 13.273624, z: -14.482464}
+  m_Size: 27.773434
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1594183439948504171}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1594183439948504171}
+  - screenRelativeHeight: 0.0065614367
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1594183439948504171}
+  m_Enabled: 1

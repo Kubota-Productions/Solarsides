@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4881185385047220159}
   - component: {fileID: 7230955224188431221}
   - component: {fileID: 4068864923066132345}
+  - component: {fileID: 674601311025480615}
   m_Layer: 0
   m_Name: StoneStairs
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 125429666955921653, guid: 433d7205d5377854c9ddfffd0832766c, type: 3}
+--- !u!205 &674601311025480615
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9176505384359037600}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -2.1230335, y: 2.0590289, z: 0}
+  m_Size: 4.560651
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7230955224188431221}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7230955224188431221}
+  - screenRelativeHeight: 0.0061471905
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7230955224188431221}
+  m_Enabled: 1

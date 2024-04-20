@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5012850290360654471}
   - component: {fileID: 7094804998113586765}
   - component: {fileID: 6992909628363976117}
+  - component: {fileID: 8206313469524475608}
   m_Layer: 0
   m_Name: Small Cylinder Ruine
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6398820252481090793, guid: 363808fd5015ac24688bb75ba9f8eef5, type: 3}
+--- !u!205 &8206313469524475608
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8751958618919030680}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.767298, y: 0.8487072, z: -1.9051259}
+  m_Size: 4.5178394
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7094804998113586765}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7094804998113586765}
+  - screenRelativeHeight: 0.010814744
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7094804998113586765}
+  m_Enabled: 1

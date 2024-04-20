@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 5358920430048707518}
   - component: {fileID: 504919590943458941}
   - component: {fileID: 579990642743717965}
+  - component: {fileID: 3115466592256257464}
   m_Layer: 0
   m_Name: Gravestone_01
   m_TagString: Untagged
@@ -144,3 +145,30 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!205 &3115466592256257464
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7510606264123166649}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0.0015720092}
+  m_Size: 0.033899095
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5358920430048707518}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5358920430048707518}
+  - screenRelativeHeight: 0.0061471905
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5358920430048707518}
+  m_Enabled: 1

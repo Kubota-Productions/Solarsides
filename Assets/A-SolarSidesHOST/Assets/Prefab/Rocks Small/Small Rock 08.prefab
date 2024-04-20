@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7849556910553497148}
   - component: {fileID: 3607398688889849962}
   - component: {fileID: 3698584133170314212}
+  - component: {fileID: 5928448506821817614}
   m_Layer: 0
   m_Name: rocklow.008
   m_TagString: Untagged
@@ -96,6 +97,33 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3014305495435236976, guid: d5f3586f8f91dcb4488984487bab73c2, type: 3}
+--- !u!205 &5928448506821817614
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085433349742224289}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.000059923157, y: 0.00017811125, z: -0.00016907789}
+  m_Size: 0.011023337
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3607398688889849962}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3607398688889849962}
+  - screenRelativeHeight: 0.0065614367
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3607398688889849962}
+  m_Enabled: 1
 --- !u!1 &6996138223791313909
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 14490592354620356}
   - component: {fileID: 4737029807968011587}
   - component: {fileID: 6796310246183829987}
+  - component: {fileID: 6809616095245564612}
   m_Layer: 0
   m_Name: Rock28_1
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2713955703882668195, guid: e1cacdf96d2904544b4f2e9846d12574, type: 3}
+--- !u!205 &6809616095245564612
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4817255018276531906}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.014280863, y: -0.002720371, z: 0.03687531}
+  m_Size: 0.084297724
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4737029807968011587}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4737029807968011587}
+  - screenRelativeHeight: 0.0061471905
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4737029807968011587}
+  m_Enabled: 1

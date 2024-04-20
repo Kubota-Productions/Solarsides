@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 298399253795042379}
   - component: {fileID: 2971103807243131668}
   - component: {fileID: 8405333179825097105}
+  - component: {fileID: 7993918725818539988}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -96,6 +97,33 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8733429697405204941, guid: a7e79d76fb04338499aed63b81600196, type: 3}
+--- !u!205 &7993918725818539988
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2821107360611685782}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.00000011920929, z: 0.000000014901161}
+  m_Size: 0.14972067
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2971103807243131668}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2971103807243131668}
+  - screenRelativeHeight: 0.0057446146
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2971103807243131668}
+  m_Enabled: 1
 --- !u!1 &5552713487855030974
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,6 +168,7 @@ GameObject:
   - component: {fileID: 4027083494018079613}
   - component: {fileID: 4439096944637325215}
   - component: {fileID: 1664187459815842894}
+  - component: {fileID: 1571743624366611112}
   m_Layer: 0
   m_Name: pSphere1
   m_TagString: Untagged
@@ -224,3 +253,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2540817853737639666, guid: a7e79d76fb04338499aed63b81600196, type: 3}
+--- !u!205 &1571743624366611112
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7351585215230658786}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: -0.000000007450581, z: -0.000000029802322}
+  m_Size: 0.019021133
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4439096944637325215}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4439096944637325215}
+  - screenRelativeHeight: 0.0053537074
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4439096944637325215}
+  m_Enabled: 1

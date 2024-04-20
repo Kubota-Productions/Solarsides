@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5623359194300563494}
   - component: {fileID: 7633276107812680940}
   - component: {fileID: 3336650661134844909}
+  - component: {fileID: 4999758572009536084}
   m_Layer: 0
   m_Name: SquareRock
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2799950535560379771, guid: 0a4dbaac15cd57340b246f98c731d21b, type: 3}
+--- !u!205 &4999758572009536084
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8281596748376905017}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.7662811, y: 18.362062, z: 0.6337881}
+  m_Size: 37.248196
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7633276107812680940}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7633276107812680940}
+  - screenRelativeHeight: 0.06455578
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7633276107812680940}
+  m_Enabled: 1

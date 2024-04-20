@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3784350136251964995}
   - component: {fileID: 388308567218411361}
   - component: {fileID: 3849999373779218208}
+  - component: {fileID: 289523166642795987}
   m_Layer: 0
   m_Name: Fans003_lp (1)
   m_TagString: Untagged
@@ -96,6 +97,33 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3589861187804164751, guid: fbdbf5b034a5e474499f2862b953b934, type: 3}
+--- !u!205 &289523166642795987
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4226885082386516380}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.70914423, y: 4.647642, z: -0.04013443}
+  m_Size: 5.6770954
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 388308567218411361}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 388308567218411361}
+  - screenRelativeHeight: 0.0061471905
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 388308567218411361}
+  m_Enabled: 1
 --- !u!1 &4299387080023066577
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +136,7 @@ GameObject:
   - component: {fileID: 2553685475148259183}
   - component: {fileID: 915143904996231848}
   - component: {fileID: 5621985741929841045}
+  - component: {fileID: 2405117284394263985}
   m_Layer: 0
   m_Name: Fans003_lp
   m_TagString: Untagged
@@ -192,6 +221,33 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3589861187804164751, guid: fbdbf5b034a5e474499f2862b953b934, type: 3}
+--- !u!205 &2405117284394263985
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4299387080023066577}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.7089001, y: 4.647642, z: -0.038181305}
+  m_Size: 5.6770954
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 915143904996231848}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 915143904996231848}
+  - screenRelativeHeight: 0.00698735
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 915143904996231848}
+  m_Enabled: 1
 --- !u!1 &4315463071453828914
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,6 +260,7 @@ GameObject:
   - component: {fileID: 5792170441126033252}
   - component: {fileID: 6718993461582859399}
   - component: {fileID: 5621985741023826024}
+  - component: {fileID: 5393485680027848189}
   m_Layer: 0
   m_Name: Fans004_lp
   m_TagString: Untagged
@@ -288,6 +345,33 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4447114489618017583, guid: fbdbf5b034a5e474499f2862b953b934, type: 3}
+--- !u!205 &5393485680027848189
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4315463071453828914}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.7047355, y: 3.1381679, z: -0.050190926}
+  m_Size: 5.88041
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6718993461582859399}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6718993461582859399}
+  - screenRelativeHeight: 0.0065614367
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6718993461582859399}
+  m_Enabled: 1
 --- !u!1 &4442026491015483111
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +384,7 @@ GameObject:
   - component: {fileID: 8933353043488602460}
   - component: {fileID: 3402951224935792315}
   - component: {fileID: 5621985740832409550}
+  - component: {fileID: 7315132030956975684}
   m_Layer: 0
   m_Name: Fans002_lp
   m_TagString: Untagged
@@ -384,6 +469,33 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6187529433075661263, guid: fbdbf5b034a5e474499f2862b953b934, type: 3}
+--- !u!205 &7315132030956975684
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4442026491015483111}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.014277905, y: 3.2251039, z: -0.0039743185}
+  m_Size: 6.4139996
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3402951224935792315}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3402951224935792315}
+  - screenRelativeHeight: 0.0061471905
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3402951224935792315}
+  m_Enabled: 1
 --- !u!1 &4811014211416516064
 GameObject:
   m_ObjectHideFlags: 0

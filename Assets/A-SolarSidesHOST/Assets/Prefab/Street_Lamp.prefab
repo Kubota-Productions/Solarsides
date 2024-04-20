@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1788244668476598127}
   - component: {fileID: 4554801980234027941}
   - component: {fileID: 2951122079122814269}
+  - component: {fileID: 4479846564777913212}
   m_Layer: 0
   m_Name: Street_Lamp
   m_TagString: Untagged
@@ -97,6 +98,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -939061152623264921, guid: 9b9c4ca855890b64a92915a789ccf976, type: 3}
+--- !u!205 &4479846564777913212
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2609013776740512368}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.00000073201954, y: 0.0057297647, z: -0.0028105713}
+  m_Size: 0.15583119
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4554801980234027941}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4554801980234027941}
+  - screenRelativeHeight: 0.0057446146
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4554801980234027941}
+  m_Enabled: 1
 --- !u!1 &4549359986812280088
 GameObject:
   m_ObjectHideFlags: 0

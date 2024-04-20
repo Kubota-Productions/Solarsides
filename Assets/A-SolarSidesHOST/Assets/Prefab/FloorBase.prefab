@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3664494018949609570}
   - component: {fileID: 1530681457374661800}
   - component: {fileID: 9139165757571562564}
+  - component: {fileID: 3397288280591257536}
   m_Layer: 0
   m_Name: FloorBase
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5076798556035486163, guid: 5f57567487d845d4a80aae3973f53aae, type: 3}
+--- !u!205 &3397288280591257536
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026520397064416637}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 9.313226e-10, y: 0.0024972325, z: -0.0000000018626451}
+  m_Size: 0.024994463
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1530681457374661800}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1530681457374661800}
+  - screenRelativeHeight: 0.0053537074
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1530681457374661800}
+  m_Enabled: 1

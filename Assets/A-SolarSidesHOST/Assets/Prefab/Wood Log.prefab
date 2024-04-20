@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 329866521421916050}
   - component: {fileID: 329866521421916049}
   - component: {fileID: 329866521421916048}
+  - component: {fileID: 8403621591011135094}
   m_Layer: 0
   m_Name: polySurface1
   m_TagString: Untagged
@@ -96,6 +97,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6329158148709259305, guid: 09e57cba032a1bc4fa01e7b0e02e7d9d, type: 3}
+--- !u!205 &8403621591011135094
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329866521421916046}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.004932046, y: -0.0011054873, z: 0.0023505092}
+  m_Size: 2.9279566
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 329866521421916049}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 329866521421916049}
+  - screenRelativeHeight: 0.00698735
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 329866521421916049}
+  m_Enabled: 1
 --- !u!1 &329866521871708038
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +169,7 @@ GameObject:
   - component: {fileID: 329866522495003333}
   - component: {fileID: 329866522495003332}
   - component: {fileID: 329866522495003331}
+  - component: {fileID: 3495173862650438202}
   m_Layer: 0
   m_Name: polySurface2
   m_TagString: Untagged
@@ -225,6 +254,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5597002278806442958, guid: 09e57cba032a1bc4fa01e7b0e02e7d9d, type: 3}
+--- !u!205 &3495173862650438202
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329866522495003329}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -1.151876, y: -0.013832331, z: 0.03156203}
+  m_Size: 0.7808958
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 329866522495003332}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 329866522495003332}
+  - screenRelativeHeight: 0.0057446146
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 329866522495003332}
+  m_Enabled: 1
 --- !u!1 &329866522677563817
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,6 +293,7 @@ GameObject:
   - component: {fileID: 329866522677563821}
   - component: {fileID: 329866522677563820}
   - component: {fileID: 329866522677563819}
+  - component: {fileID: 750152763967419962}
   m_Layer: 0
   m_Name: polySurface3
   m_TagString: Untagged
@@ -321,3 +378,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4164511204261677510, guid: 09e57cba032a1bc4fa01e7b0e02e7d9d, type: 3}
+--- !u!205 &750152763967419962
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329866522677563817}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 1.1603513, y: -0.0149104, z: -0.018171996}
+  m_Size: 0.7713056
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 329866522677563820}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 329866522677563820}
+  - screenRelativeHeight: 0.0057446146
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 329866522677563820}
+  m_Enabled: 1

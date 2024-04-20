@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3491929442516074531}
   - component: {fileID: 2860989669012138639}
   - component: {fileID: 2860989669012138636}
+  - component: {fileID: 9130959388407571388}
   m_Layer: 0
   m_Name: gas can
   m_TagString: Untagged
@@ -113,3 +114,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 26cb501cb060bdc408b80b348d8d2bf1, type: 3}
+--- !u!205 &9130959388407571388
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3131460945546158582}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.0009263437, y: 0.0000000018626451, z: 0.011093873}
+  m_Size: 0.030432988
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3491929442516074531}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3491929442516074531}
+  - screenRelativeHeight: 0.00698735
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3491929442516074531}
+  m_Enabled: 1

@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 7409131460482461031}
   - component: {fileID: 8188368687643170906}
   - component: {fileID: 2156839090578576726}
+  - component: {fileID: 5147679550683253483}
   m_Layer: 0
   m_Name: rock_ring1:rock_ring_lp 1
   m_TagString: Untagged
@@ -112,3 +113,30 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &5147679550683253483
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7211756658292194924}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.0000000037252903, y: 0, z: 0.0000000037252903}
+  m_Size: 0.02000001
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2156839090578576726}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2156839090578576726}
+  - screenRelativeHeight: 0.0053537074
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2156839090578576726}
+  m_Enabled: 1

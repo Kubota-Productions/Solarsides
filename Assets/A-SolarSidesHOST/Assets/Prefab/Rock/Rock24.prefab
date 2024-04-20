@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 7878625082380813360}
   - component: {fileID: 4331013219367960509}
   - component: {fileID: 6270225716989830341}
+  - component: {fileID: 4745139757374743451}
   m_Layer: 0
   m_Name: Rock24
   m_TagString: Untagged
@@ -127,3 +128,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8552134717624371188, guid: 93cf29b458c32fd40b33a34941fcb754, type: 3}
+--- !u!205 &4745139757374743451
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7361826856922683073}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.001763761, y: -0.00076664984, z: -0.0008405708}
+  m_Size: 0.018440746
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4331013219367960509}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4331013219367960509}
+  - screenRelativeHeight: 0.012442554
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4331013219367960509}
+  m_Enabled: 1

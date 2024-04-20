@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1186645782911200026}
   - component: {fileID: 7838844456889183700}
   - component: {fileID: 8351140200267054370}
+  - component: {fileID: 9157538814284778918}
   m_Layer: 0
   m_Name: RockSet18
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3968940243846786763, guid: 10f9712147ea10c4fb049e517ca1faa5, type: 3}
+--- !u!205 &9157538814284778918
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719959236332807473}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 10.47427, y: -2.0810254, z: -8.234724}
+  m_Size: 4.863144
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7838844456889183700}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7838844456889183700}
+  - screenRelativeHeight: 0.008807697
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7838844456889183700}
+  m_Enabled: 1

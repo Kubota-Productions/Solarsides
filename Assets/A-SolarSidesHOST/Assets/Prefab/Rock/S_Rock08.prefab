@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 885102338688306565}
   - component: {fileID: 2844074548276485977}
   - component: {fileID: 7250802782067454402}
+  - component: {fileID: 3852002855305541827}
   m_Layer: 0
   m_Name: S_Rock8
   m_TagString: Untagged
@@ -127,3 +128,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -462981019419857548, guid: b1986f36012296a409ccf525222fd953, type: 3}
+--- !u!205 &3852002855305541827
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279668389878715953}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.014321588, y: 0.007038798, z: 0.013750341}
+  m_Size: 0.075991206
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2844074548276485977}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2844074548276485977}
+  - screenRelativeHeight: 0.009291955
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2844074548276485977}
+  m_Enabled: 1

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 56199949253641950}
   - component: {fileID: 2820202003437220372}
   - component: {fileID: 5339886104906445178}
+  - component: {fileID: 8463887631704992287}
   m_Layer: 0
   m_Name: SqureCube
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6460923009694718607, guid: 748fe9a5dc6d80b47b3e39e1dff87d05, type: 3}
+--- !u!205 &8463887631704992287
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4333486175589749697}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 2.2067733, y: 13.557709, z: -2.0668}
+  m_Size: 27.476147
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2820202003437220372}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2820202003437220372}
+  - screenRelativeHeight: 0.0053537074
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2820202003437220372}
+  m_Enabled: 1

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4645409705120297035}
   - component: {fileID: 3851072909762407572}
   - component: {fileID: 7413502567079739328}
+  - component: {fileID: 5646839628651554234}
   m_Layer: 0
   m_Name: beamconnection
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 9a4ecdefbe0f43440ab450df194cc746, type: 3}
+--- !u!205 &5646839628651554234
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143519735626582079}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0.0000000027939677}
+  m_Size: 0.020588424
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3851072909762407572}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3851072909762407572}
+  - screenRelativeHeight: 0.0061471905
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3851072909762407572}
+  m_Enabled: 1

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 341562990019884383}
   - component: {fileID: 2547224239566406037}
   - component: {fileID: 7159390495736047984}
+  - component: {fileID: 6270274787642064006}
   m_Layer: 0
   m_Name: Rock10
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7914061335450806017, guid: 888f69825a0c0864f8d36655baa1b447, type: 3}
+--- !u!205 &6270274787642064006
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4060402446222057536}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.013448238, y: 0.003892064, z: 0.020985365}
+  m_Size: 7.9425335
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2547224239566406037}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2547224239566406037}
+  - screenRelativeHeight: 0.0061471905
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2547224239566406037}
+  m_Enabled: 1

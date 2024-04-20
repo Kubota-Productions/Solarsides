@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 390035454254906370}
   - component: {fileID: 4474018461963259058}
   - component: {fileID: 9188712836124931517}
+  - component: {fileID: 7574884587535668526}
   m_Layer: 0
   m_Name: Rock20
   m_TagString: Untagged
@@ -96,6 +97,33 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1550514412580984892, guid: dec463431de3b0a42abe2379dbbf7338, type: 3}
+--- !u!205 &7574884587535668526
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096201189566519498}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.00443153, y: 0.00110522, z: 0.049096815}
+  m_Size: 0.100676596
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4474018461963259058}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4474018461963259058}
+  - screenRelativeHeight: 0.013586106
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4474018461963259058}
+  m_Enabled: 1
 --- !u!1 &4243154058127157821
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2743162769245221849}
   - component: {fileID: 3508805691682166937}
   - component: {fileID: 995112922366991733}
+  - component: {fileID: 9090203334625094879}
   m_Layer: 0
   m_Name: Stone_wall 1 (3)
   m_TagString: Untagged
@@ -81,3 +82,30 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &9090203334625094879
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669342909563458772}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.011810951, y: -0.007954851, z: 0.113328084}
+  m_Size: 0.24665624
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 995112922366991733}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 995112922366991733}
+  - screenRelativeHeight: 0.007874186
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 995112922366991733}
+  m_Enabled: 1

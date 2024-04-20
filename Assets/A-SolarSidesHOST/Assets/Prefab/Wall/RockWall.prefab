@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1676149642243232915}
   - component: {fileID: 3775255527337337173}
   - component: {fileID: 7173890216045247754}
+  - component: {fileID: 1112566656497835908}
   m_Layer: 0
   m_Name: rockwall
   m_TagString: Untagged
@@ -96,6 +97,33 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: ad1f78944f32bf84d94e145cd0e649da, type: 3}
+--- !u!205 &1112566656497835908
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078376337538307183}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.005747676, y: -0.0000055590644, z: 0.07395596}
+  m_Size: 0.39124787
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3775255527337337173}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3775255527337337173}
+  - screenRelativeHeight: 0.01029548
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3775255527337337173}
+  m_Enabled: 1
 --- !u!1 &4104739041737830271
 GameObject:
   m_ObjectHideFlags: 0

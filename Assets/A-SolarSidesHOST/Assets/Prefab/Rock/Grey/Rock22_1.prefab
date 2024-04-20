@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7813204322667205454}
   - component: {fileID: 4847741006284326732}
   - component: {fileID: 2427182145132812417}
+  - component: {fileID: 8366766151828161022}
   m_Layer: 0
   m_Name: Rock22_1
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8586841694308071770, guid: e1cacdf96d2904544b4f2e9846d12574, type: 3}
+--- !u!205 &8366766151828161022
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2570096433723762524}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.000025240704, y: 0.000006102957, z: -0.000991812}
+  m_Size: 0.019994652
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4847741006284326732}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4847741006284326732}
+  - screenRelativeHeight: 0.0061471905
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4847741006284326732}
+  m_Enabled: 1

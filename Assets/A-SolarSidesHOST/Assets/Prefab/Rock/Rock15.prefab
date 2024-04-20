@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4109566369938893878}
   - component: {fileID: 8201137353028936750}
   - component: {fileID: 6948347731481187733}
+  - component: {fileID: 6804676171338917633}
   m_Layer: 0
   m_Name: Rock15
   m_TagString: Untagged
@@ -96,6 +97,33 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 9e1341975fc26ef4482a45726620123b, type: 3}
+--- !u!205 &6804676171338917633
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193144795704971778}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.0000007748604, y: 0.0000011334196, z: 0.0000011883676}
+  m_Size: 0.020002767
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8201137353028936750}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8201137353028936750}
+  - screenRelativeHeight: 0.012442554
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8201137353028936750}
+  m_Enabled: 1
 --- !u!1 &2951659050496230488
 GameObject:
   m_ObjectHideFlags: 0

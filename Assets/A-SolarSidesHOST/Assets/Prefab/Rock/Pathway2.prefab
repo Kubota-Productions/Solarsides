@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6267215469995098011}
   - component: {fileID: 8150785293339003729}
   - component: {fileID: 405058248520620434}
+  - component: {fileID: 6379463233453245698}
   m_Layer: 0
   m_Name: Pathway2
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 540549307031391186, guid: 2f7f75ee52608314a8dfb796434f00b5, type: 3}
+--- !u!205 &6379463233453245698
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7646430994443840132}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.01283133, y: -0.009879142, z: -0.009984136}
+  m_Size: 2.3409061
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8150785293339003729}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8150785293339003729}
+  - screenRelativeHeight: 0.013586106
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8150785293339003729}
+  m_Enabled: 1

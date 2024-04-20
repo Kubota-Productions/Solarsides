@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 6939184504559861681}
   - component: {fileID: 3903914245753304088}
   - component: {fileID: 3966460672851103888}
+  - component: {fileID: 4177100065171376218}
   m_Layer: 0
   m_Name: Wall4001_lp
   m_TagString: Untagged
@@ -131,6 +132,32 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 79668408354525294, guid: a7fd4eb40db7a334f8eb0ea2f8522124, type: 3}
+--- !u!205 &4177100065171376218
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4028137120797144700}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.000000004656613, z: 0.009953855}
+  m_Size: 0.029999003
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3903914245753304088}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3903914245753304088}
+  - screenRelativeHeight: 0.009787884
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &5747532359858202190
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,6 +170,7 @@ GameObject:
   - component: {fileID: 7258469903083248292}
   - component: {fileID: 5070981493569973571}
   - component: {fileID: 3862852518409315379}
+  - component: {fileID: 5540684009187195223}
   m_Layer: 0
   m_Name: Wall4002_lp
   m_TagString: Untagged
@@ -227,6 +255,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2120997999270113746, guid: a7fd4eb40db7a334f8eb0ea2f8522124, type: 3}
+--- !u!205 &5540684009187195223
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5747532359858202190}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.049166083, y: 7.4958906, z: -19.800447}
+  m_Size: 4.8908405
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5070981493569973571}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5070981493569973571}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5070981493569973571}
+  m_Enabled: 1
 --- !u!1 &5858601464121569432
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +294,7 @@ GameObject:
   - component: {fileID: 3875842476457325253}
   - component: {fileID: 699882872085407341}
   - component: {fileID: 774549246794419767}
+  - component: {fileID: 2256654739231464836}
   m_Layer: 0
   m_Name: Wall4004_lp
   m_TagString: Untagged
@@ -323,6 +379,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3873578800060893709, guid: a7fd4eb40db7a334f8eb0ea2f8522124, type: 3}
+--- !u!205 &2256654739231464836
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5858601464121569432}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.032025814, y: 8.229057, z: 0.020367622}
+  m_Size: 7.823107
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 699882872085407341}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 699882872085407341}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 699882872085407341}
+  m_Enabled: 1
 --- !u!1 &6351771919706386240
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,6 +418,7 @@ GameObject:
   - component: {fileID: 4676193900078046928}
   - component: {fileID: 8458483012981039311}
   - component: {fileID: 6058272553878290347}
+  - component: {fileID: 3024337134301102362}
   m_Layer: 0
   m_Name: Wall4005_lp
   m_TagString: Untagged
@@ -419,6 +503,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8224153124695885191, guid: a7fd4eb40db7a334f8eb0ea2f8522124, type: 3}
+--- !u!205 &3024337134301102362
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6351771919706386240}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.05629325, y: 2.6753573, z: 0.0049996376}
+  m_Size: 7.6136775
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8458483012981039311}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8458483012981039311}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8458483012981039311}
+  m_Enabled: 1
 --- !u!1 &6423260681659869954
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,6 +542,7 @@ GameObject:
   - component: {fileID: 273836527469015310}
   - component: {fileID: 636365581023816187}
   - component: {fileID: 6445834961140462416}
+  - component: {fileID: 8470835949303288777}
   m_Layer: 0
   m_Name: Wall4003_lp
   m_TagString: Untagged
@@ -515,3 +627,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1718598247469433189, guid: a7fd4eb40db7a334f8eb0ea2f8522124, type: 3}
+--- !u!205 &8470835949303288777
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6423260681659869954}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.05629325, y: 2.6753569, z: 0.005000353}
+  m_Size: 7.61368
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 636365581023816187}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 636365581023816187}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 636365581023816187}
+  m_Enabled: 1

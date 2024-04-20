@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4570083622066843914}
   - component: {fileID: 5664834425400681057}
   - component: {fileID: 7967992536656419806}
+  - component: {fileID: 217603502776763007}
   m_Layer: 0
   m_Name: Crystal013
   m_TagString: Untagged
@@ -96,3 +97,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1628553009126948762, guid: fa148026ca3a40b469b04396d7d425a5, type: 3}
+--- !u!205 &217603502776763007
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5527304123742338651}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.031115055, y: 0.043966115, z: -0.024904728}
+  m_Size: 6.6571054
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5664834425400681057}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5664834425400681057}
+  - screenRelativeHeight: 0.007874186
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5664834425400681057}
+  m_Enabled: 1

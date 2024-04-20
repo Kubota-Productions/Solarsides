@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2248975067704805368}
   - component: {fileID: 2248975067704805370}
   - component: {fileID: 2248975067704805369}
+  - component: {fileID: 1991120926062630632}
   m_Layer: 0
   m_Name: table
   m_TagString: Untagged
@@ -126,3 +127,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62016cc3a6c3f464cace3c50ae49f730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!205 &1991120926062630632
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437949250171999230}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.0000000037252903, y: 0, z: -0.0023721773}
+  m_Size: 0.014606107
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 645249812931097131}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 645249812931097131}
+  - screenRelativeHeight: 0.0053537074
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 645249812931097131}
+  m_Enabled: 1

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3181707590267472658}
   - component: {fileID: 5839957860166749143}
   - component: {fileID: 4520493988294082601}
+  - component: {fileID: 1181519636209868211}
   m_Layer: 0
   m_Name: Wall6003_lp2
   m_TagString: Untagged
@@ -96,6 +97,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4285464409634711015, guid: a7fd4eb40db7a334f8eb0ea2f8522124, type: 3}
+--- !u!205 &1181519636209868211
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524556686552593495}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.0000024233013, y: 0.00000002142042, z: -0.0000002719462}
+  m_Size: 0.021860695
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5839957860166749143}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5839957860166749143}
+  - screenRelativeHeight: 0.008335106
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5839957860166749143}
+  m_Enabled: 1
 --- !u!1 &883432375135553517
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +136,7 @@ GameObject:
   - component: {fileID: 6243416962459563279}
   - component: {fileID: 4183582967438294712}
   - component: {fileID: 3828549520888815875}
+  - component: {fileID: 5811714303959207775}
   m_Layer: 0
   m_Name: wall6002_lp
   m_TagString: Untagged
@@ -192,6 +221,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 9211952864653842930, guid: a7fd4eb40db7a334f8eb0ea2f8522124, type: 3}
+--- !u!205 &5811714303959207775
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883432375135553517}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.020520568, y: 0.002332151, z: -1.560084}
+  m_Size: 1.1803744
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4183582967438294712}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4183582967438294712}
+  - screenRelativeHeight: 0.0065614367
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4183582967438294712}
+  m_Enabled: 1
 --- !u!1 &6911048776306522372
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,6 +293,7 @@ GameObject:
   - component: {fileID: 180649648009563147}
   - component: {fileID: 5335603196336085950}
   - component: {fileID: 1279950976039090969}
+  - component: {fileID: 8730337161800415608}
   m_Layer: 0
   m_Name: wall6001_lp
   m_TagString: Untagged
@@ -321,3 +378,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6560126279675041805, guid: a7fd4eb40db7a334f8eb0ea2f8522124, type: 3}
+--- !u!205 &8730337161800415608
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9090654789194130946}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.0032196045, y: -0.018517911, z: -0.08700538}
+  m_Size: 1.8331234
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5335603196336085950}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5335603196336085950}
+  - screenRelativeHeight: 0.007424935
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5335603196336085950}
+  m_Enabled: 1
