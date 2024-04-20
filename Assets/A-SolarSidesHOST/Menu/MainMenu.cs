@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
    public void PlayGame()
     {
-        SceneManager.LoadSceneAsync("Bilal whiteboxing scene");
+        SceneManager.LoadSceneAsync("Kamran's whiteboxing scene");
     }
     public void QuitGame()
     {
