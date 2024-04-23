@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4572626167549818879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 260654830696141798}
+  m_Layer: 0
+  m_Name: Dandelions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &260654830696141798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4572626167549818879}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -195.878, y: 51.10454, z: 37.552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6724761609767249394}
+  - {fileID: 8859551975209758657}
+  - {fileID: 5436248506041844532}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5581375871932465268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 260654830696141798}
+    m_Modifications:
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.44195557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.9737778
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949751206915926687, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_Name
+      value: Flower_Dandelions
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+--- !u!4 &8859551975209758657 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+  m_PrefabInstance: {fileID: 5581375871932465268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7698150751429200455
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 260654830696141798}
+    m_Modifications:
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.49198914
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.93475723
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949751206915926687, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_Name
+      value: Flower_Dandelions (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+--- !u!4 &6724761609767249394 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+  m_PrefabInstance: {fileID: 7698150751429200455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9004696125694487681
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 260654830696141798}
+    m_Modifications:
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7949751206915926687, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+      propertyPath: m_Name
+      value: Flower_Dandelions (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+--- !u!4 &5436248506041844532 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4001013259112312757, guid: b7e2edfd78290e740bfed4d9a2cc8ad1, type: 3}
+  m_PrefabInstance: {fileID: 9004696125694487681}
+  m_PrefabAsset: {fileID: 0}

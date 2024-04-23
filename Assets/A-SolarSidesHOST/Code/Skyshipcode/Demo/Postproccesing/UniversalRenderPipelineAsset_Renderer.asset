@@ -54,7 +54,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd5ce549e0b646a7adf00b1b9fc8603d, type: 3}
-  m_Name: StylizedGrass.GrassRenderFeature
+  m_Name: StylizedGrassGrassRenderFeature
   m_EditorClassIdentifier: 
   m_Active: 1
   bendingShader: {fileID: 4800000, guid: 83f1a74da0594f2439500e813fc6108b, type: 3}
