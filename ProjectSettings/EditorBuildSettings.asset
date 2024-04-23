@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/A-SolarSidesHOST/Scenes/Assets Test.unity
     guid: 9ac2adee6e9b08440aeaf64815f3d9d1
-  - enabled: 1
+  - enabled: 0
     path: Assets/A-SolarSidesHOST/Scenes/Bilal whiteboxing scene.unity
     guid: ede705e2ae86b364b8c2fedd45588f18
   - enabled: 1
