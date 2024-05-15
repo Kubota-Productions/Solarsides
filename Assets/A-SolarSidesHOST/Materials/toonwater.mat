@@ -2,20 +2,25 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: toonwater
   m_Shader: {fileID: -6465566751694194690, guid: abc8e8459849c364fae74fbdb877be63, type: 3}
-  m_ShaderKeywords: 
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -31,6 +36,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_0cec127049584a87882247237ff3d58d: 2.84
     - Vector1_1: 6.8
@@ -47,9 +53,25 @@ Material:
     - Vector1_a5ec42bbcb674df29cf03724efdd951b: 2.65
     - Vector1_aeb489b8d9f247568a055957aeebbe67: 5.3
     - Vector1_bd5d2cb4f277495fae20d9413b757cb0: -0.07
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - Color_1: {r: 0.32941177, g: 0.5882353, b: 0.75294125, a: 1}
     - Color_153f532527f24e9cb25e1ecbfea2e129: {r: 0.5847231, g: 0.56919944, b: 0.4967559, a: 1}
     - Color_989b2c6f27d34d338b9aeec36f6bfbdc: {r: 0.27450982, g: 0.2627451, b: 0.54901963, a: 1}
     - Color_e4754ad52cb44c6cad8b2dcfe16c12a3: {r: 0.32941177, g: 0.58653134, b: 0.7529412, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &8979204541455215658
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
