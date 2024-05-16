@@ -1,0 +1,33 @@
+CHANGELOG
+
+_____
+1.1.1
+Patch
+
+Added:
+• DOTS Instancing support.
+
+Changed:
+• Shaders model set to 4.5 (required for DOTS Instancing support).
+• Changed script name EditorUtility to EditorUtils, to avoid confusion with Unity library.
+
+Fixed:
+• Shader variant stripping causing displacement issue in build.
+
+_____
+1.1.0
+Minor patch and UX improvement
+
+Added:
+• Undo/redo support.
+• A user action is now required with an editor popup window to confirm if a new CrushCamera should be instantiated when the reference is not valid.
+• Foliage shaders (global shader properties) are now automatically initialized after Unity starts.
+
+Changed:
+• Rename VFXSetWindData to VFXSetWindProperties and improve the component flexibility.
+• Rename the Eole toolbar script namespace.
+• Delete GlobalShaderFoliageManager and its custom inspector script, as they were not used.
+
+Fixed:
+• Error "Assertion failed on expression: 'ShouldRunBehaviour()" while using the Eole refresh shortcut is now fixed.
+• The prefab components don't execute anymore from the project folder / prefab mode, until the gameObject is in a valid scene, which could return some warnings.

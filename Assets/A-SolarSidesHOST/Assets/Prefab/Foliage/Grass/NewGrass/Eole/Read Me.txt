@@ -1,0 +1,11 @@
+-- Eole - Version 1.1.1 --
+by Axel FAUX
+
+Copyright protected under Unity Asset Store EULA.
+You are permitted to use this asset in personal and commercial projects, 
+with the condition of not redistributing it and crediting the asset's name in your creations.
+====================================================
+
+Thank you for your purchase!
+Please make sure to follow at least the Quick Start category in the provided documentation for this asset: https://axel-faux.gitbook.io/eole/
+====================================================
