@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2604567012766506326}
   - component: {fileID: 2604567012766506324}
   - component: {fileID: 2604567012766506325}
-  - component: {fileID: 7845170600479057731}
   m_Layer: 0
   m_Name: Green_tree_1
   m_TagString: Untagged
@@ -29,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2604567013728339525}
   m_Father: {fileID: 0}
@@ -53,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -83,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7845170600479057731
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2604567012766506327}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8081317734454312985, guid: 38611e6c90495b64e85df67bb001192a, type: 3}
 --- !u!1 &2604567013728339526
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +112,7 @@ Transform:
   m_LocalRotation: {x: -0.000000081460335, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2604567012766506326}
   m_RootOrder: 0
@@ -152,7 +140,7 @@ VisualEffect:
       - m_Value: 0.5
         m_Name: Wind Intensity
         m_Overridden: 0
-      - m_Value: 1.5
+      - m_Value: 1.4
         m_Name: Leaves Size
         m_Overridden: 0
       - m_Value: 0.633
@@ -256,7 +244,8 @@ VisualEffect:
         m_Overridden: 1
     m_NamedObject:
       m_Array:
-      - m_Value: {fileID: 4451425151573677177, guid: 38611e6c90495b64e85df67bb001192a, type: 3}
+      - m_Value: {fileID: 4451425151573677177, guid: 38611e6c90495b64e85df67bb001192a,
+          type: 3}
         m_Name: Mesh
         m_Overridden: 1
     m_Bool:
@@ -276,6 +265,7 @@ VFXRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0

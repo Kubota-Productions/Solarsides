@@ -437,7 +437,7 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FaceWindDir_MaskSmoothstep: {r: 0, g: 1.5, b: 0, a: 0}
     - _HueVariation: {r: 0.9254902, g: 0.89411765, b: 0.65882355, a: 0.28235295}
-    - _MainBaseColor: {r: 0.5, g: 0.2950256, b: 0, a: 0.13333334}
+    - _MainBaseColor: {r: 3.9999998, g: 2.3602045, b: 0, a: 0.13333334}
     - _MainBottomTint: {r: 0.05325, g: 0.213, b: 0, a: 0}
     - _MainTopTint: {r: 0.11340042, g: 0.5188679, b: 0, a: 0}
     - _NOISESCALE: {r: 20, g: 5.6, b: 0, a: 0}
