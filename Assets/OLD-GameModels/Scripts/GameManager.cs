@@ -27,24 +27,14 @@ public class GameManager : MonoBehaviour
     [Header("Player - Submarine Switching")]
     [SerializeField] private float switchingDistance = 25f;
 
-
     private float depths;
     private float depthp;
 
-
-    
-
-
     public static GameObject Submarine;
-
     public static int Points;
 
     public static void ResetPoints() => Points = 0;
-
     public static void ModifyPoints(int amount) => Points += amount;
-
-
-
 
     void Start()
     {
@@ -54,11 +44,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         if (Ingame) InGame();
-
-        else
-        {
-
-        }
+        else { /* Handle other game states if needed */ }
     }
 
     void InGame()
@@ -67,7 +53,6 @@ public class GameManager : MonoBehaviour
         scoreCounterSubmarine.text = "Score: " + Points;
 
         depths = Mathf.Abs(submarine.transform.position.y);
-
         int depthInt = Mathf.RoundToInt(depths);
         Depthinfo.text = "Depth: " + depthInt;
 
@@ -77,20 +62,12 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F)) Switch();
 
-        //if (depths < 10) LoadIntoHangar();
-
-        float y;
-
-        if (inSubmarine) y = depths;
-
-        else y = depthp;
-
+        float y = inSubmarine ? depths : depthp;
         float normalizedY = Mathf.InverseLerp(0, 10000, y);
-
         Color targetColor = fogGradient.Evaluate(normalizedY);
 
         RenderSettings.fogColor = targetColor;
-        //RenderSettings.skybox.SetColor("_Tint", targetColor);
+
         foreach (TitleStruct titleStruct in titleStructs)
         {
             if (y >= titleStruct.depth)
@@ -100,34 +77,42 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public static void LoadIntoHangar()
-    {
-        //SceneManager.LoadSceneAsync(1);
-    }
-
-    public static void LoadIntoGame()
-    {
-        //SceneManager.LoadSceneAsync(2);
-    }
+    public static void LoadIntoHangar() { /* SceneManager.LoadSceneAsync(1); */ }
+    public static void LoadIntoGame() { /* SceneManager.LoadSceneAsync(2); */ }
 
     bool inSubmarine = true;
 
     private void Switch()
     {
-        //add a distance check here beforehand
         float distance = Vector3.Distance(player.transform.position, submarine.transform.position);
 
-        if (distance < switchingDistance && inSubmarine)
+        if (inSubmarine)
         {
-            
+            if (distance < switchingDistance)
+            {
+                // Switch to player mode
+                inSubmarine = false;
+                subhud.SetActive(false);
+                subcamerarig.SetActive(false);
+                player.SetActive(true);
+                player.transform.position = playerSpawnpoint.transform.position;
+                SubController.enabled = false;
+            }
+            else
+            {
+                // Player is too far from the submarine, cannot switch
+                Debug.Log("Player is too far from the submarine to switch.");
+            }
         }
-
-        inSubmarine = !inSubmarine;
-        subhud.SetActive(inSubmarine); subcamerarig.SetActive(inSubmarine); player.SetActive(!inSubmarine);
-
-        if (!inSubmarine) player.transform.position = playerSpawnpoint.transform.position;
-
-        SubController.enabled = inSubmarine;
+        else
+        {
+            // Switch to submarine mode
+            inSubmarine = true;
+            subhud.SetActive(true);
+            subcamerarig.SetActive(true);
+            player.SetActive(false);
+            SubController.enabled = true;
+        }
     }
 }
 
