@@ -15,7 +15,6 @@ Material:
   - _DEBUGDISABLEWINDDPO_ON
   - _DEBUGWIND_ON
   - _USEAIRSHEENTINT_ON
-  - _USECOLORMAP_ON
   - _WIND_ADVANCED
   m_InvalidKeywords:
   - _COLOR_USEAIRTINT_ON
@@ -40,7 +39,7 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  m_LockedProperties: 
+  m_LockedProperties: _BaseMap
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -188,8 +187,8 @@ Material:
     - _CRUSHOFFSETDIST: -0.3
     - _CamProjectionOffset: 25
     - _CamProjectionSize: 60
-    - _ColorMapBlendOffset: 0
-    - _ColorMapFadeContrast: 0.18
+    - _ColorMapBlendOffset: -1.51
+    - _ColorMapFadeContrast: 5.08
     - _Color_AlphaThreshold: 0.5
     - _Color_MainBlendFadeContrast: 5
     - _Color_MainBlendOffset: 0.2
@@ -359,7 +358,7 @@ Material:
     - _Turbulence_ThresholdMin: 0.5
     - _UseAirSheenTint: 1
     - _UseAirTint: 1
-    - _UseColormap: 1
+    - _UseColormap: 0
     - _UseCrush: 0
     - _UseCustomWind: 0
     - _UseCustomWind2: 0
@@ -372,11 +371,11 @@ Material:
     - _UseWindTint: 1
     - _VariantBlendFadeContrast: 0
     - _VariantBlendOffset: 0
-    - _VariantContrast: 4.35
+    - _VariantContrast: -3.56
     - _VariantFalloff: 1
     - _VariantHeightContrast: 1.74
     - _VariantHeightThreshold: 1.84
-    - _VariantOffset: -0.33
+    - _VariantOffset: -0.47
     - _VariantThreshold: 1
     - _Wind: 2
     - _WindAngle: 0
@@ -437,7 +436,7 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FaceWindDir_MaskSmoothstep: {r: 0, g: 1.5, b: 0, a: 0}
     - _HueVariation: {r: 0.9254902, g: 0.89411765, b: 0.65882355, a: 0.28235295}
-    - _MainBaseColor: {r: 3.9999998, g: 2.3602045, b: 0, a: 0.13333334}
+    - _MainBaseColor: {r: 0.17996085, g: 0.25, b: 0, a: 1}
     - _MainBottomTint: {r: 0.05325, g: 0.213, b: 0, a: 0}
     - _MainTopTint: {r: 0.11340042, g: 0.5188679, b: 0, a: 0}
     - _NOISESCALE: {r: 20, g: 5.6, b: 0, a: 0}
@@ -451,7 +450,7 @@ Material:
     - _TerrainTexOffset: {r: -20, g: -20, b: 0, a: 0}
     - _Tint: {r: 0.05642058, g: 0.41509432, b: 0, a: 0}
     - _TurbulenceSmoothstep: {r: -2, g: 0, b: 0, a: 0}
-    - _VariantBaseColor: {r: 0.57330686, g: 0.57937366, b: 0, a: 0.24705882}
+    - _VariantBaseColor: {r: 0.102174744, g: 0.1981132, b: 0, a: 0.24705882}
     - _VariantBottomTint: {r: 0.6117647, g: 0.5764706, b: 0.4352941, a: 0}
     - _VariantTopTint: {r: 0.8392157, g: 0.6556298, b: 0, a: 0}
     - _VariantTopTint1: {r: 0.61, g: 0.5777768, b: 0.4342373, a: 0}
