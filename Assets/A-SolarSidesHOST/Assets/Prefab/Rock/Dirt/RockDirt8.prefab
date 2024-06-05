@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3825927930500629819}
   - component: {fileID: 1671967457055591107}
   - component: {fileID: 5172560957253001366}
+  - component: {fileID: 6063737487139856324}
   m_Layer: 0
   m_Name: RockDirt8
   m_TagString: Untagged
@@ -85,3 +86,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &6063737487139856324
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534022040152502318}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.0870191, y: 0.00044563878, z: 0.0039590783}
+  m_Size: 0.017872894
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.0179378
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5172560957253001366}
+  m_Enabled: 1

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4443282888916227723}
   - component: {fileID: 7354211926299853008}
   - component: {fileID: 3378567687158355504}
+  - component: {fileID: 2121703844439155971}
   m_Layer: 0
   m_Name: RockDirt4
   m_TagString: Untagged
@@ -85,3 +86,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &2121703844439155971
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6424731617943228609}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.08701907, y: -0.006219419, z: 0.0039590774}
+  m_Size: 0.00631609
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.018788833
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3378567687158355504}
+  m_Enabled: 1
