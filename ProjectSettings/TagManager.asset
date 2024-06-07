@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Submarine
+  - CinemachineTarget
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
