@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/A-SolarSidesHOST/Menu/Main Menu.unity
+    path: Assets/A-SolarSidesHOST/Menu/Pausemenu.unity
     guid: c6343fe73129d0d4d8696dd47d7f10c1
   - enabled: 0
     path: Assets/OLD-GameModels/Scenes/topside6.unity
