@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2213549538518840865}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.000000081460335, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2213549538965770066}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!2083052967 &2213549538518840866
 VisualEffect:
@@ -46,6 +46,7 @@ VisualEffect:
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
   m_ResetSeedOnPlay: 1
+  m_AllowInstancing: 1
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
@@ -129,6 +130,7 @@ VisualEffect:
           atime6: 0
           atime7: 0
           m_Mode: 0
+          m_ColorSpace: -1
           m_NumColorKeys: 4
           m_NumAlphaKeys: 2
         m_Name: Position Gradient
@@ -160,14 +162,14 @@ VisualEffect:
           atime6: 0
           atime7: 0
           m_Mode: 0
+          m_ColorSpace: -1
           m_NumColorKeys: 3
           m_NumAlphaKeys: 2
         m_Name: Leaves Colors
         m_Overridden: 1
     m_NamedObject:
       m_Array:
-      - m_Value: {fileID: 1990423916625730075, guid: eb5e437a929ec604bb90e87db4aef783,
-          type: 3}
+      - m_Value: {fileID: 1990423916625730075, guid: eb5e437a929ec604bb90e87db4aef783, type: 3}
         m_Name: Mesh
         m_Overridden: 1
       - m_Value: {fileID: 2800000, guid: 5f76717ca22ae1a4eb477562459fde49, type: 3}
@@ -196,6 +198,8 @@ VFXRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_StaticBatchInfo:
@@ -229,6 +233,7 @@ GameObject:
   - component: {fileID: 2213549538965770066}
   - component: {fileID: 2213549538965770068}
   - component: {fileID: 2213549538965770069}
+  - component: {fileID: 5758031260600151654}
   m_Layer: 0
   m_Name: Ins_Maple_tree_3
   m_TagString: Untagged
@@ -243,6 +248,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2213549538965770067}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -250,7 +256,6 @@ Transform:
   m_Children:
   - {fileID: 2213549538518840864}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2213549538965770068
 MeshFilter:
@@ -277,6 +282,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
@@ -302,3 +309,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5758031260600151654
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2213549538965770067}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8693436764281777323, guid: eb5e437a929ec604bb90e87db4aef783, type: 3}

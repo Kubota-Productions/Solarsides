@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 3174799869320398307}
   - component: {fileID: 3174799869320398309}
   - component: {fileID: 3174799869320398306}
+  - component: {fileID: 7281560963442543382}
   m_Layer: 0
   m_Name: Green_tree_3
   m_TagString: Untagged
@@ -216,6 +217,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7281560963442543382
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3174799869320398304}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8693436764281777323, guid: eb5e437a929ec604bb90e87db4aef783, type: 3}
 --- !u!1 &3174799869599155274
 GameObject:
   m_ObjectHideFlags: 0

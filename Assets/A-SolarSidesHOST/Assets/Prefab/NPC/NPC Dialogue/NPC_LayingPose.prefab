@@ -224,11 +224,11 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[0].sentenceSound
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 33704d5b6a356eb43ad7080ad0c79b41, type: 3}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[1].sentenceSound
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 33704d5b6a356eb43ad7080ad0c79b41, type: 3}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[2].sentenceSound
       value: 
