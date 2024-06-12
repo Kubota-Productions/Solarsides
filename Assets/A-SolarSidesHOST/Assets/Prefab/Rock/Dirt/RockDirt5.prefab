@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7917869972443900571}
   - component: {fileID: 4060216808766489052}
   - component: {fileID: 752981680010091055}
+  - component: {fileID: 9141139319786000338}
   m_Layer: 0
   m_Name: RockDirt5
   m_TagString: Untagged
@@ -105,3 +106,25 @@ LODGroup:
     renderers:
     - renderer: {fileID: 4060216808766489052}
   m_Enabled: 1
+--- !u!64 &9141139319786000338
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516701664677343975}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9085331004972601494, guid: 4257fe8135314224ab8a2a791ef6ad6f, type: 3}
